@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(174, 222, 239)!important;
+}
+.formHead{
+  background-color: rgb(127, 214, 106);
+  padding: 5px;
+  color: white;
+}
+
+.formBg{
+  background-color:#6bc7d9;
+  margin-top: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.formHeadPill{
+  color: white;
+  background-color: rgb(213, 105, 10);
+  border-bottom: 1px inset #d3e37f;
+}
+
+.cover{
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(135, 210, 236);
+  z-index: 100;
+}
+
+.spinner {
+  border: 16px solid #ebcccc;
+  border-radius: 50%;
+  border-top: 16px solid rgb(110, 66, 241);
+  border-bottom: 16px solid rgb(110, 66, 241);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: block;
+  margin: 30vh auto;
+  padding: 3px;
+  z-index:101;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
